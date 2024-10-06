@@ -1,0 +1,50 @@
+/* src/components/SignupSection.css */
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.signup-content {
+  text-align: center;
+}
+
+.signup-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.signup-form input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  padding: 15px 30px;
+  background-color: #f2823a;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #d97327;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .signup-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

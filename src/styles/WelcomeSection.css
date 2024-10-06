@@ -1,0 +1,52 @@
+/* src/components/WelcomeSection.css */
+
+.welcome {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Image on the left, text on the right */
+  gap: 50px;
+  padding: 11rem;
+  align-items: center;
+}
+
+.welcome-text {
+  font-size: 20px;
+  color: #333;
+  padding-left: 8rem;
+}
+
+.welcome-text h2 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.welcome ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.welcome ul li {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.welcome-image {
+  display: flex;
+  justify-content: flex-start; /* Aligns image to the left */
+}
+
+.welcome-image img {
+  width: 100%; /* Responsive width */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .welcome {
+    grid-template-columns: 1fr; /* Stacks image and text on top of each other on smaller screens */
+    text-align: center; /* Center align text on smaller screens */
+  }
+
+  .welcome-image {
+    justify-content: center; /* Center align image on smaller screens */
+  }
+}

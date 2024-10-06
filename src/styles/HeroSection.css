@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #ffffff;
+}
+.hero-text {
+  flex: 1;
+  padding-left: 9rem;
+  padding-top: 4rem;
+}
+.hero h1 {
+  font-size: 53px;
+  width: 24rem;
+}
+.hero p {
+  margin: 20px 0;
+}
+.hero-btn {
+  background-color: #46301f;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+.hero-image {
+  width: 400px; /* Change the width as desired */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure image is responsive */
+  object-fit: contain; /* Ensure the image is contained within the set dimensions */
+  padding-right: 12rem;
+}
+
+#para {
+  font-size: 20px;
+  width: 36rem;
+}
