@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import React from "react";
 import styled from "styled-components";
 
@@ -55,7 +53,7 @@ const StyledWrapper = styled.div`
   }
 `;
 
-const Button = () => {
+const Footer = () => {
   return (
     <StyledWrapper>
 
@@ -175,4 +173,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default Footer;
