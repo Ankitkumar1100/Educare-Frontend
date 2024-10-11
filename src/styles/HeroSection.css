@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 50px;
   background-color: #ffffff;
+  margin-top: 10px;
 }
 .hero-text {
   flex: 1;

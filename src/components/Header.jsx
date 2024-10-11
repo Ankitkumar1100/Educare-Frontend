@@ -1,6 +1,6 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import "../styles/Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -9,16 +9,16 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <Link to="/" className="my-link">Home</Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/aboutUs" className="my-link">About</Link>
           </li>
           <li>
-            <a href="#courses">Courses</a>
+            <Link to="/Courses" className="my-link">Courses</Link>
           </li>
           <li>
-            <a href="#blog">Blog</a>
+            <Link to="/blogs" className="my-link">Blog</Link>
           </li>
           <li>
             <button className="contact-btn">Contact us</button>

@@ -1,1 +1,59 @@
-/* No work Foe Now  */
+.styled-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -110px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card svg {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.instagram {
+    fill: #e1306c;
+}
+
+.twitter {
+    fill: #1da1f2;
+}
+
+.dribble {
+    fill: #ea4c89;
+}
+
+.codepen {
+    fill: #333;
+}
+
+.uiverse {
+    fill: url(#paint0_linear_501_142);
+}
+
+.discord {
+    fill: #7289da;
+}
+
+.github {
+    fill: #181717;
+}

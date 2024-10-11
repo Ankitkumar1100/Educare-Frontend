@@ -1,64 +1,9 @@
-/* eslint-disable no-unused-vars */
-
 import React from "react";
-import styled from "styled-components";
+import '../styles/Footer.css';
 
-const StyledWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  padding: 20px;
-  flex-wrap: wrap;
-
-  .card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    transition: transform 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &:hover {
-      transform: scale(1.05);
-    }
-
-    svg {
-      height: 30px;
-      width: 30px;
-      cursor: pointer;
-    }
-
-    .instagram {
-      fill: #e1306c;
-    }
-    .twitter {
-      fill: #1da1f2;
-    }
-    .dribble {
-      fill: #ea4c89;
-    }
-    .codepen {
-      fill: #333;
-    }
-    .uiverse {
-      fill: url(#paint0_linear_501_142);
-    }
-    .discord {
-      fill: #7289da;
-    }
-    .github {
-      fill: #181717;
-    }
-  }
-`;
-
-const Button = () => {
+const Footer = () => {
   return (
-    <StyledWrapper>
-
+    <div className="styled-wrapper">
       <div><h2>Our Socials</h2></div>
       {/* Instagram Icon */}
       <div className="card">
@@ -171,8 +116,8 @@ const Button = () => {
           <path d="M19 0h-14c-2.206 0-4 1.794-4 4v16c0 2.206 1.794 4 4 4h14c2.206 0 4-1.794 4-4v-16c0-2.206-1.794-4-4-4zm-11 20h-3v-8h3v8zm-1.5-9.086c-1.034 0-1.5-.681-1.5-1.5s.465-1.5 1.5-1.5 1.5.681 1.5 1.5-.465 1.5-1.5 1.5zm13.5 9.086h-3v-4.204c0-1.01-.021-2.31-1.407-2.31-1.408 0-1.621 1.097-1.621 2.224v4.29h-3v-8h3v1.095c.394-.75 1.354-1.83 3.074-1.83 3.28 0 3.891 2.261 3.891 5.209v3.526z" />
         </svg>
       </div>
-    </StyledWrapper>
+    </div>
   );
 };
 
-export default Button;
+export default Footer;

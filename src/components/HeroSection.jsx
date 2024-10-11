@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="hero">
       <div className="hero-text">
         <h1>Start learning with us now</h1>
-        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p id="para">Join our community of learners and kickstart your journey towards mastering new skills.</p>
         <button className="hero-btn">Start learning</button>
       </div>
       <div className="hero-image">
