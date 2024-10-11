@@ -3,35 +3,72 @@
   justify-content: space-between;
   padding: 10px;
   background-color: #f9d8a1;
-  width: 1300px;
+  width: 100%;
+  height: 78px;
 }
 .logo {
-  font-size: 24px;
+  position: relative;
+  top: -20px;
+  font-size: 28px;
   font-weight: bold;
   height: 0em;
+  cursor: pointer;
 }
+.logo:hover{
+  transform: scale(1.07);
+}
+
 nav ul {
+  position: relative;
+  left: -100px;
   list-style: none;
   display: flex;
-  gap: 75px;
+  gap: 60px;
   align-items: center;
-}
-nav a {
   text-decoration: none;
   color: #333;
 }
+nav ul li {
+  position: relative;
+  top: 6px;
+  font-size: 17px;
+}
+nav ul li:hover{
+  transform: scale(1.05);
+}
+
+.my-link{
+  text-decoration: none;
+  color: #333;
+}
+.my-link:hover{
+  color: #000000;
+}
+
 .contact-btn {
-  background-color: #f2823a;
+  background-color: #ff7c2b;
   border: none;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
+  position: relative;
+  left: 85px;
+}
+.contact-btn:hover{
+  transform: scale(1.03);
+  background-color: #fd731e;
 }
 
 .register-btn {
-  background-color: #f2823a;
+  background-color: #ff7c2b;
   border: none;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+.register-btn:hover{
+  transform: scale(1.03);
+  background-color: #fd731e;
 }

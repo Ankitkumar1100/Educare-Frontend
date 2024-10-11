@@ -9,16 +9,16 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="my-link">Home</Link>
           </li>
           <li>
-            <Link to="">About</Link>
+            <Link to="/aboutUs" className="my-link">About</Link>
           </li>
           <li>
-            <Link to="/Courses">Courses</Link>
+            <Link to="/Courses" className="my-link">Courses</Link>
           </li>
           <li>
-            <Link to="">Blog</Link>
+            <Link to="/blogs" className="my-link">Blog</Link>
           </li>
           <li>
             <button className="contact-btn">Contact us</button>

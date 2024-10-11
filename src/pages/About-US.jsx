@@ -2,17 +2,17 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer"; 
 import Feeter from "../components/Feeter";
-import CoursesCards from "../components/Courses-Cards";
+import AboutUs from "../components/About-us";
 
-function Courses(){
+function Aboutus(){
     return(
         <div>
             <Header />
-            <CoursesCards />
+            <AboutUs />
             <Footer />
             <Feeter />
         </div>
     )
 }
 
-export default Courses;
+export default Aboutus;

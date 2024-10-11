@@ -2,17 +2,18 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer"; 
 import Feeter from "../components/Feeter";
-import CoursesCards from "../components/Courses-Cards";
+import Blogs from "../components/Blogs";
 
-function Courses(){
+
+function Blog(){
     return(
         <div>
             <Header />
-            <CoursesCards />
+            <Blogs />
             <Footer />
             <Feeter />
         </div>
     )
 }
 
-export default Courses;
+export default Blog;

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import "../styles/Feeter.css";
 
@@ -19,7 +18,7 @@ const Feeter = () => {
         </div>
         <div className="footer-section">
           <h3>Contacts</h3>
-          <p>Address: LougeTown</p>
+          <p>Address: New Delhi </p>
           <p>Email: educare@gmail.com</p>
           <p>Phone Number: +1 453-433-3255</p>
         </div>
